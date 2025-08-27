@@ -16,8 +16,8 @@
 }
 
 .hero-title {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
     background: linear-gradient(90deg, #fefeff, #545e62);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -29,8 +29,8 @@
 
 .hero-title1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
     background: linear-gradient(90deg, #00f5a0, #00d9f5, #0071e3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -43,8 +43,8 @@
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
     opacity: 0.8;
     max-width: 100%;
     word-wrap: break-word;

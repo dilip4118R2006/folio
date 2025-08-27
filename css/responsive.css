@@ -22,41 +22,41 @@ html, body {
 /* Container responsiveness */
 
 .container {
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 @media (min-width: 576px) {
     .container {
-        padding: 0 1.5rem;
-        max-width: 540px;
+        padding: 0 1.2rem;
+        max-width: 432px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        padding: 0 2rem;
-        max-width: 720px;
+        padding: 0 1.6rem;
+        max-width: 576px;
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        padding: 0 2rem;
-        max-width: 960px;
+        padding: 0 1.6rem;
+        max-width: 768px;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 912px;
     }
 }
 
 @media (min-width: 1400px) {
     .container {
-        max-width: 1320px;
+        max-width: 1056px;
     }
 }
 
@@ -64,14 +64,14 @@ html, body {
 /* Section padding adjustments */
 
 section {
-    padding: 4rem 0 6rem;
+    padding: 3.2rem 0 4.8rem;
     width: 100%;
     box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
     section {
-        padding: 6rem 0 8rem;
+        padding: 4.8rem 0 6.4rem;
     }
 }
 
@@ -79,30 +79,30 @@ section {
 /* Typography responsiveness */
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.2;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.44rem;
     line-height: 1.3;
 }
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -112,152 +112,152 @@ h2 {
 @media (max-width: 1200px) {
     .certifications-container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
 }
 
 @media (max-width: 992px) {
     .contact-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.6rem;
     }
     .about-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.6rem;
         text-align: center;
     }
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
     .hero-title1 {
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
     .hero-subtitle {
-        font-size: 1.3rem;
+        font-size: 1.04rem;
     }
     /* Modal improvements */
     .modal-content {
         width: 90%;
-        padding: 1.5rem;
+        padding: 1.2rem;
     }
     .modal-images {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.8rem;
     }
 }
 
 @media (max-width: 768px) {
     .skills-container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.8rem;
     }
     .certifications-container {
         grid-template-columns: 1fr;
-        max-width: 500px;
-        gap: 1rem;
+        max-width: 400px;
+        gap: 0.8rem;
     }
     .projects-grid {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.8rem;
     }
     .experience-item {
-        width: 220px;
-        padding: 15px;
+        width: 176px;
+        padding: 12px;
     }
     .robot-container {
-        width: 60px;
-        height: 60px;
+        width: 48px;
+        height: 48px;
     }
     /* Dock responsiveness */
     .dock {
-        padding: 8.4px 13.65px 12.6px 13.65px;
-        border-radius: 17.85px;
+        padding: 6.72px 10.92px 10.08px 10.92px;
+        border-radius: 14.28px;
     }
     .dock-item {
-        width: 39.9px;
-        height: 39.9px;
-        border-radius: 12.6px;
-        margin: 0 5.25px;
+        width: 31.92px;
+        height: 31.92px;
+        border-radius: 10.08px;
+        margin: 0 4.2px;
     }
     .dock-item i {
-        font-size: 17.85px;
+        font-size: 14.28px;
     }
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.4rem;
         line-height: 1.1;
     }
     .hero-title1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 1.2;
     }
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 0.96rem;
     }
     /* Button responsiveness */
     .btn {
-        padding: 0.8rem 1.2rem;
-        font-size: 0.9rem;
+        padding: 0.64rem 0.96rem;
+        font-size: 0.72rem;
     }
     /* Form responsiveness */
     .form-control {
-        padding: 0.8rem;
-        font-size: 0.9rem;
+        padding: 0.64rem;
+        font-size: 0.72rem;
     }
 }
 
 @media (max-width: 576px) {
     .hero-title {
-        font-size: 2.5rem;
-    }
-    .hero-title1 {
         font-size: 2rem;
     }
+    .hero-title1 {
+        font-size: 1.6rem;
+    }
     .hero-subtitle {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+        margin-bottom: 1.2rem;
     }
     /* Navigation improvements */
     .dock-container {
-        bottom: 10px;
+        bottom: 8px;
     }
     .dock {
-        padding: 6px 10px 8px 10px;
-        border-radius: 15px;
+        padding: 4.8px 8px 6.4px 8px;
+        border-radius: 12px;
     }
     .dock-item {
-        width: 35px;
-        height: 35px;
-        border-radius: 10px;
-        margin: 0 3px;
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        margin: 0 2.4px;
     }
     .dock-item i {
-        font-size: 16px;
+        font-size: 12.8px;
     }
     /* Modal improvements for mobile */
     .modal-content {
-        padding: 1.5rem;
+        padding: 1.2rem;
         width: 95%;
         max-height: 90vh;
     }
     /* Contact section improvements */
     .contact-content {
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
     .contact-icon {
         margin-left: 0;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
     }
     .contact-links {
         margin-left: 0;
-        margin-top: 3rem;
+        margin-top: 2.4rem;
         justify-content: center;
     }
     .contact-form {
@@ -265,108 +265,108 @@ h2 {
     }
     .form-control {
         margin-right: 0;
-        padding: 0.7rem;
+        padding: 0.56rem;
     }
     /* Certificate section improvements */
     .cert-logo {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
-    }
-    .cert-info h2 {
+        width: 40px;
+        height: 40px;
         font-size: 16px;
     }
+    .cert-info h2 {
+        font-size: 12.8px;
+    }
     .cert-info p {
-        font-size: 12px;
+        font-size: 9.6px;
     }
     /* Terminal improvements */
     .terminal-content {
-        padding: 15px;
+        padding: 12px;
     }
     .view-button {
-        padding: 6px 12px;
-        font-size: 12px;
+        padding: 4.8px 9.6px;
+        font-size: 9.6px;
     }
     /* About section improvements */
     .profile-img {
-        max-width: 250px;
+        max-width: 200px;
         margin: 0 auto;
     }
     .about-text {
         text-align: left;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
     }
 }
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 1.8rem;
+        font-size: 1.44rem;
         line-height: 1.1;
     }
     .hero-title1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 1.2;
     }
     .hero-subtitle {
-        font-size: 0.85rem;
+        font-size: 0.68rem;
         line-height: 1.3;
     }
     .btn {
-        padding: 0.7rem 0.9rem;
-        font-size: 0.9rem;
-        margin-bottom: 0.5rem;
+        padding: 0.56rem 0.72rem;
+        font-size: 0.72rem;
+        margin-bottom: 0.4rem;
         white-space: nowrap;
     }
     /* Experience section improvements */
     .experience-item {
-        width: 200px;
-        padding: 12px;
-        font-size: 0.9rem;
+        width: 160px;
+        padding: 9.6px;
+        font-size: 0.72rem;
         max-width: calc(100vw - 40px);
     }
     .experience-title {
-        font-size: 16px;
+        font-size: 12.8px;
         line-height: 1.2;
     }
     .experience-date {
-        font-size: 12px;
+        font-size: 9.6px;
     }
     .experience-description {
-        font-size: 12px;
+        font-size: 9.6px;
         line-height: 1.3;
     }
     /* Section spacing */
     section {
-        padding: 3rem 0 4rem;
+        padding: 2.4rem 0 3.2rem;
         width: 100%;
         overflow-x: hidden;
     }
     /* Loading screen improvements */
     .hello {
-        font-size: 2.5rem;
+        font-size: 2rem;
         max-width: 90vw;
         text-align: center;
     }
     /* Profile image improvements */
     .profile-img {
-        max-width: 200px;
+        max-width: 160px;
         height: auto;
     }
     /* Skills section improvements */
     .skills-header i {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .skills-header h3 {
-        font-size: 1.2rem;
+        font-size: 0.96rem;
         line-height: 1.2;
     }
     /* Window improvements */
     .window-content {
-        padding: 1rem;
+        padding: 0.8rem;
         word-wrap: break-word;
     }
     .window-title {
-        font-size: 0.7rem;
+        font-size: 0.56rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -378,20 +378,20 @@ h2 {
 
 @media (max-height: 500px) and (orientation: landscape) {
     .hero-title1 {
-        font-size: 1.8rem;
+        font-size: 1.44rem;
     }
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 1.76rem;
     }
     .hero-subtitle {
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
+        font-size: 0.72rem;
+        margin-bottom: 0.8rem;
     }
     section {
-        padding: 2rem 0 3rem;
+        padding: 1.6rem 0 2.4rem;
     }
     .dock-container {
-        bottom: 5px;
+        bottom: 4px;
     }
 }
 
