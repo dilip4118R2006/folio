@@ -23,6 +23,8 @@
     -webkit-text-fill-color: transparent;
     animation: gradient 8s ease infinite;
     background-size: 200% auto;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .hero-title1 {
@@ -36,10 +38,14 @@
     background-size: 200% auto;
     text-align: center;
     line-height: 1.4;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     opacity: 0.8;
+    max-width: 100%;
+    word-wrap: break-word;
 }

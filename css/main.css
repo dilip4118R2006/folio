@@ -18,12 +18,23 @@ body {
     background-color: var(--bg-dark);
     color: var(--text-light);
     overflow-x: hidden;
+    zoom: 1;
+    transform: scale(1);
+    transform-origin: top left;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    zoom: 1;
+    font-size: 16px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    width: 100%;
 }
 
 section {
@@ -33,6 +44,10 @@ section {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 section.active {

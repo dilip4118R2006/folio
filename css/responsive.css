@@ -1,27 +1,62 @@
 /* Responsive Styles */
 
+/* Reset any browser zoom or scaling */
+html, body {
+    zoom: 1 !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+}
+
+/* Ensure proper scaling on all devices */
+@media screen {
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+}
 
 /* Container responsiveness */
 
 .container {
     padding: 0 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 @media (min-width: 576px) {
     .container {
         padding: 0 1.5rem;
+        max-width: 540px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
         padding: 0 2rem;
+        max-width: 720px;
     }
 }
 
 @media (min-width: 992px) {
     .container {
         padding: 0 2rem;
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
     }
 }
 
@@ -30,6 +65,8 @@
 
 section {
     padding: 4rem 0 6rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -263,45 +300,57 @@ h2 {
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        line-height: 1.1;
     }
     .hero-title1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
     }
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.85rem;
+        line-height: 1.3;
     }
     .btn {
         padding: 0.7rem 0.9rem;
         font-size: 0.9rem;
         margin-bottom: 0.5rem;
+        white-space: nowrap;
     }
     /* Experience section improvements */
     .experience-item {
         width: 200px;
         padding: 12px;
         font-size: 0.9rem;
+        max-width: calc(100vw - 40px);
     }
     .experience-title {
         font-size: 16px;
+        line-height: 1.2;
     }
     .experience-date {
         font-size: 12px;
     }
     .experience-description {
         font-size: 12px;
+        line-height: 1.3;
     }
     /* Section spacing */
     section {
         padding: 3rem 0 4rem;
+        width: 100%;
+        overflow-x: hidden;
     }
     /* Loading screen improvements */
     .hello {
         font-size: 2.5rem;
+        max-width: 90vw;
+        text-align: center;
     }
     /* Profile image improvements */
     .profile-img {
         max-width: 200px;
+        height: auto;
     }
     /* Skills section improvements */
     .skills-header i {
@@ -309,13 +358,18 @@ h2 {
     }
     .skills-header h3 {
         font-size: 1.2rem;
+        line-height: 1.2;
     }
     /* Window improvements */
     .window-content {
         padding: 1rem;
+        word-wrap: break-word;
     }
     .window-title {
         font-size: 0.7rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
